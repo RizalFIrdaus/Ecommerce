@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+/* Login */
+.bg{
+background-color: #FEF9F3;
+
+}
+.form-control:focus {
+  border-color: #FF4200;
+  box-shadow: 0 0 0 0.2rem rgb(255, 124, 77, 0.25);
+} 
+.button_slide {
+  color: #050505;
+  border: 2px solid #ebe1e1;
+  border-radius: 8px;
+  padding: 18px 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ffffffc3;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+
+.slide_right:hover {
+  box-shadow: inset 540px 0 0 0 #ffffff70;
+}
+
+#outer {
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+/* Register */
+.bgg1 {
+background-color: #FEF9F3;
+
+}
+
+.button_slide1 {
+  color: #050505;
+  border: 2px solid #ebe1e1;
+  border-radius: 8px;
+  padding: 18px 36px;
+  font-family: "roboto";
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ffffffc3;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+
+.slide_right2:hover {
+  box-shadow: inset 400px 0 0 0 #F4F4F4;
+}
+.slide_righ3:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff70;
+}
+.slide_right4:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff70;
+}
+.slide_right4:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff70;
+}
+
+#outer1 {
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}

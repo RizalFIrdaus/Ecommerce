@@ -1,0 +1,24 @@
+.btn-lihat-sm {
+    border: 3px solid #ddd;
+    font-size: 14px;
+  }
+  .btn-lihat-sm-active{
+    border: 3px solid transparent;
+    background:
+    linear-gradient(#fff,#fff) padding-box,
+    conic-gradient(from 81deg,
+        #FF4200 0deg, #FF4200 198deg,
+        #25258C 199deg, #25258C 350deg, 
+        #00A9EA 351deg, #00A9EA 360deg
+    ) border-box;
+  }
+  .btn-lihat-sm:hover{
+    border: 3px solid transparent;
+    background:
+    linear-gradient(#fff,#fff) padding-box,
+    conic-gradient(from 81deg,
+        #FF4200 0deg, #FF4200 198deg,
+        #25258C 199deg, #25258C 350deg, 
+        #00A9EA 351deg, #00A9EA 360deg
+    ) border-box;
+  }

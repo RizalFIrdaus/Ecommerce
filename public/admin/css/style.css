@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Navpils */
+
+.nav-pills .nav-link:active{
+    background-color: #ff4200;
+    color: white;
+}
+.nav-pills .nav-link.active{
+    background-color: #ff4200;
+    color: white;
+}
+.nav-pills .nav-link:not(.active) {
+    color: #ff4200;
+}
+
+
+/* Checkbox */
+.form-check input[type="checkbox"] {
+    border-color: #ff4200;
+}
+.form-check input:checked  {
+    border-color: #ff4200;
+    background-color: #ff4200;
+
+}
+.form-select:focus{
+    border-color: #ff4200;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #ff4200;
+}
+
+
+/* Button */
+.text-mb {
+    color: #ff4200;
+}
+
+.btn-mb {
+    border: 3px solid #ddd;
+    font-size: 14px;
+}
+
+.btn-lihat {
+    border: 3px solid #ddd;
+    font-size: 27px;
+}
+
+.btn-lihat-sm  {
+    border: 3px solid #fff;
+    font-size: 14px;
+    background-color: #FF4200;
+    color: #fff;
+}
+.btn-edit-sm{
+    border: 3px solid #fff;
+    font-size: 14px;
+    background-color: #00A9EA;
+    color: #fff;
+}
+
+.btn-edit-sm:hover{
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        conic-gradient(from 81deg,
+            #FF4200 0deg, #FF4200 198deg,
+            #25258C 199deg, #25258C 350deg,
+            #00A9EA 351deg, #00A9EA 360deg) border-box;
+}
+.btn-delete-sm{
+    border: 3px solid #fff;
+    font-size: 14px;
+    background-color: #ff4200;
+    color: #fff;
+}
+
+.btn-delete-sm:hover{
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        conic-gradient(from 81deg,
+            #FF4200 0deg, #FF4200 198deg,
+            #25258C 199deg, #25258C 350deg,
+            #00A9EA 351deg, #00A9EA 360deg) border-box;
+}
+.form-control:focus{
+    border-color: #ff4200;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #ff4200;
+}
+
+.btn-lihat-active {
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        conic-gradient(from 81deg,
+            #FF4200 0deg, #FF4200 198deg,
+            #25258C 199deg, #25258C 350deg,
+            #00A9EA 351deg, #00A9EA 360deg) border-box;
+}
+.btn-lihat:hover {
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        conic-gradient(from 81deg,
+            #FF4200 0deg, #FF4200 198deg,
+            #25258C 199deg, #25258C 350deg,
+            #00A9EA 351deg, #00A9EA 360deg) border-box;
+}
+
+.btn-lihat-sm-active {
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        conic-gradient(from 81deg,
+            #FF4200 0deg, #FF4200 198deg,
+            #25258C 199deg, #25258C 350deg,
+            #00A9EA 351deg, #00A9EA 360deg) border-box;
+}
+
+.btn-lihat-sm:hover {
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        conic-gradient(from 81deg,
+            #FF4200 0deg, #FF4200 198deg,
+            #25258C 199deg, #25258C 350deg,
+            #00A9EA 351deg, #00A9EA 360deg) border-box;
+}
+
+
+/* PAGINATION */
+.page-item.active .page-link{
+    background-color: #FF4200 ;
+    border-color: #FF4200;
+}
+.page-link{
+    background-color: #fff;
+    color: #FF4200;
+}
+.page-link:hover{
+    color: #FF4200;
+
+}
+.pagination li{
+    padding: 3px;
+}
+.disabled .page-link{
+    color: #212529 ;
+    opacity: 0 ;
+}
